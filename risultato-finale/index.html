@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il Nostro Amore ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>💕 La Nostra Storia d'Amore 💕</h1>
+        <p id="saluto">Un viaggio attraverso i nostri ricordi più belli</p>
+    </header>
+
+    <div class="music-player">
+        <button id="btn-musica">🎵</button>
+        <span id="stato-musica">Clicca per la musica</span>
+        <audio id="audio-sottofondo" loop>
+            <source src="nostra-canzone.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <section class="contatore-amore anima-entrata">
+        <h2>💕 Il Nostro Tempo Insieme</h2>
+        <div id="contatore">
+            <div class="tempo-box">
+                <span id="giorni">0</span>
+                <small>giorni</small>
+            </div>
+            <div class="tempo-box">
+                <span id="ore">0</span>
+                <small>ore</small>
+            </div>
+            <div class="tempo-box">
+                <span id="minuti">0</span>
+                <small>minuti</small>
+            </div>
+            <div class="tempo-box">
+                <span id="secondi">0</span>
+                <small>secondi</small>
+            </div>
+        </div>
+        <p class="data-inizio">Dal giorno in cui tutto è iniziato...</p>
+    </section>
+
+    <section class="anima-entrata">
+        <h2>🌟 Chi Siamo</h2>
+        <p>Due cuori che si sono trovati e non si sono più lasciati.</p>
+    </section>
+
+    <section class="messaggi-amore anima-entrata">
+        <h2>💌 Un Messaggio per Te</h2>
+        <p id="messaggio-random">Clicca il cuore per ricevere un messaggio d'amore!</p>
+        <button id="btn-messaggio">💕</button>
+    </section>
+
+    <section class="anima-entrata">
+        <h2>💝 Perché Ti Amo</h2>
+        <p>Ci sono infinite ragioni, ma eccone alcune speciali...</p>
+        <ul>
+            <li>Per il tuo sorriso che illumina le mie giornate ☀️</li>
+            <li>Per come mi fai sentire a casa ovunque 🏠</li>
+            <li>Per la tua dolcezza infinita 🍯</li>
+            <li>Per ogni momento che condividiamo insieme 💫</li>
+            <li>Perché sei semplicemente tu 💕</li>
+        </ul>
+    </section>
+
+    <section class="timeline-section anima-entrata">
+        <h2>📅 La Nostra Timeline</h2>
+        <p>I momenti che hanno scritto la nostra storia...</p>
+        <div id="timeline"></div>
+    </section>
+
+    <section class="anima-entrata">
+        <h2>📸 I Nostri Ricordi</h2>
+        <p>Momenti che porteremo sempre nel cuore.</p>
+        <div class="galleria">
+            <img src="https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=400&h=400&fit=crop" alt="Foto romantica 1">
+            <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?w=400&h=400&fit=crop" alt="Foto romantica 2">
+            <img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=400&h=400&fit=crop" alt="Foto romantica 3">
+        </div>
+    </section>
+
+    <section class="countdown-natale anima-entrata">
+        <h2>🎄 Countdown al Natale 🎄</h2>
+        <div id="countdown">
+            <div class="countdown-box">
+                <span id="countdown-ore">00</span>
+                <small>ore</small>
+            </div>
+            <div class="countdown-box">
+                <span id="countdown-minuti">00</span>
+                <small>minuti</small>
+            </div>
+            <div class="countdown-box">
+                <span id="countdown-secondi">00</span>
+                <small>secondi</small>
+            </div>
+        </div>
+        <p id="messaggio-natale">Manca poco alla magia... ✨</p>
+    </section>
+
+    <section class="messaggio-finale anima-entrata">
+        <h2>💕 Un Messaggio Speciale 💕</h2>
+        <p class="lettera">
+            Cara Amore,<br><br>
+            Questa pagina l'hai costruita tu, giorno dopo giorno.<br>
+            Ogni riga di codice è un piccolo atto d'amore.<br><br>
+            Proprio come la nostra storia: un passo alla volta,<br>
+            un giorno alla volta, costruiamo qualcosa di bellissimo.<br><br>
+            Grazie per essere nella mia vita.<br>
+            Ti amo infinitamente.<br><br>
+            Con tutto il mio cuore,<br>
+            Il tuo amore 💕
+        </p>
+    </section>
+
+    <footer>
+        <p>Fatto con 💕 per te</p>
+        <p>La nostra storia continua...</p>
+    </footer>
+
+    <!-- Popup per le foto ingrandite -->
+    <div id="foto-popup" class="popup-nascosto">
+        <span id="chiudi-popup">✕</span>
+        <img id="foto-grande" src="" alt="Foto ingrandita">
+    </div>
+
+    <div id="sorpresa-natale" class="sorpresa-nascosta">
+        <div class="sorpresa-contenuto">
+            <h2>🎄 Buon Natale Amore! 🎄</h2>
+            <p>Grazie per aver costruito questa pagina con me.</p>
+            <p>Sei la cosa più bella che mi sia capitata.</p>
+            <p class="cuore-grande">💕</p>
+            <button id="chiudi-sorpresa">Grazie! ❤️</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
