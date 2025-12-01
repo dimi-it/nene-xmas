@@ -13,7 +13,9 @@ Oggi scopriamo cos'è l'**HTML** - è il linguaggio che dice al browser "cosa" m
 
 ## 🎯 Cosa Fare
 
-Apri il file `index.html` e **sostituisci tutto** con questo codice:
+Per iniziare crea una cartella dove costuiremo la nostra pagina web.
+Al suo interno salva un file chiamato `index.html`, il Blocco Note andra' benissimo. <br />
+Ci siamo, è arrivata l'ora di scrivere le prime linee di codice, questo dovra' essere il contenuto del file, ora sta a te!
 
 ```html
 <!DOCTYPE html>
@@ -28,6 +30,7 @@ Apri il file `index.html` e **sostituisci tutto** con questo codice:
 </body>
 </html>
 ```
+💡 **Curiosità:** Puoi recuperare le emoji che cerchi da https://emojipedia.org
 
 ---
 
@@ -54,17 +57,24 @@ Solo testo nero su sfondo bianco per ora, ma è il tuo primo sito web! 🎉
 
 ---
 
-## 💝 Pensiero del Giorno
-
-*"Ogni grande viaggio inizia con un piccolo passo. Oggi hai fatto il tuo primo passo nel mondo del codice. Sono fiero di te!"*
-
----
-
 ## 🆘 Se Qualcosa Non Funziona
 
 - Assicurati di aver salvato il file (Ctrl+S)
 - Controlla che il file si chiami esattamente `index.html`
 - Prova ad aprire il file con Chrome o Firefox
+
+---
+
+## ⚡ Se non ti basta
+
+Hai voglia di qualche sfida in più? <br>
+Puoi provare a cambiare il titolo o il contenuto della pagina!
+
+---
+
+## 💝 Pensiero del Giorno
+
+*"Ogni grande viaggio inizia con un piccolo passo. Oggi hai fatto il tuo primo passo nel mondo del codice. Sono fiero di te!"*
 
 ---
 
