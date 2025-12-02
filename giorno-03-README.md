@@ -70,12 +70,6 @@ Visivamente è ancora semplice, ma la struttura è pronta per diventare bella! �
 
 ---
 
-## 💝 Pensiero del Giorno
-
-*"Organizzare è il primo passo verso la bellezza. Hai dato una struttura ai nostri ricordi. Sei fantastica!"*
-
----
-
 ## 🆘 Se Qualcosa Non Funziona
 
 - Ogni `<section>` deve avere il suo `</section>` di chiusura
@@ -83,4 +77,10 @@ Visivamente è ancora semplice, ma la struttura è pronta per diventare bella! �
 
 ---
 
-**Domani iniziamo a renderla più bella!** 🌈
+## 💝 Pensiero del Giorno
+
+*"Mettere ordine non è solo sistemare: è dare valore a ciò che conta. Hai reso tutto più chiaro e più bello!"*
+
+---
+
+**Domani liste!** 🌈
