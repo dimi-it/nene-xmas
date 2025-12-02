@@ -19,7 +19,7 @@ Nel file `index.html`, **sostituisci** la parte dentro `<body>` con questo:
 <body>
     <h1>💕 La Nostra Storia d'Amore 💕</h1>
     
-    <h2>Benvenuto nel nostro angolo speciale</h2>
+    <h2>Benvenuta nel nostro angolo speciale</h2>
     
     <p>Questa pagina racconta la nostra storia, i nostri ricordi e tutto l'amore che ci unisce.</p>
     
@@ -46,16 +46,10 @@ Nel file `index.html`, **sostituisci** la parte dentro `<body>` con questo:
 Salva e aggiorna il browser (F5). Vedrai:
 
 > # 💕 La Nostra Storia d'Amore 💕
-> ## Benvenuto nel nostro angolo speciale
+> ## Benvenuta nel nostro angolo speciale
 > Questa pagina racconta la nostra storia, i nostri ricordi e tutto l'amore che ci unisce.
 > 
 > Ogni giorno che passa insieme è un regalo prezioso. ✨
-
----
-
-## 💝 Pensiero del Giorno
-
-*"Le parole hanno potere. Oggi hai imparato a far parlare la tua pagina web. Continua così, sei bravissima!"*
 
 ---
 
@@ -63,6 +57,18 @@ Salva e aggiorna il browser (F5). Vedrai:
 
 - Controlla che ogni tag aperto sia anche chiuso: `<p>` deve avere `</p>`
 - Gli spazi e le righe vuote nel codice servono solo per leggibilità, non cambiano il risultato
+
+---
+
+## ⚡ Se non ti basta
+
+Puoi provare ad aggiungere un altro sottotitolo di dimensione piu' ridotta!
+
+---
+
+## 💝 Pensiero del Giorno
+
+*"Le parole hanno potere. Oggi hai imparato a far parlare la tua pagina web. Continua così, sei bravissima!"*
 
 ---
 
