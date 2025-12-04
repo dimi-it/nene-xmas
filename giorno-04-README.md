@@ -7,9 +7,8 @@ Oggi aggiungiamo delle liste! Perfette per elencare tutte le ragioni per cui ci 
 ---
 
 ## 📚 Cosa Impariamo Oggi
-- **Liste non ordinate** (`<ul>`) - con i pallini
+- **Liste non ordinate** (`<ul>`) - con i pallini che ti piacciono tanto
 - **Elementi lista** (`<li>`) - ogni voce della lista
-- **Link** (`<a>`) - per collegare pagine o sezioni
 
 ---
 
@@ -20,13 +19,14 @@ Nel file `index.html`, **trova** la sezione "Perché Ti Amo" e **sostituiscila**
 ```html
     <section>
         <h2>💝 Perché Ti Amo</h2>
-        <p>Ci sono infinite ragioni, ma eccone alcune speciali...</p>
+        <p>Ci sono infinite ragioni, ma eccone alcune:</p>
         <ul>
             <li>Per il tuo sorriso che illumina le mie giornate ☀️</li>
-            <li>Per come mi fai sentire a casa ovunque 🏠</li>
-            <li>Per la tua dolcezza infinita 🍯</li>
+            <li>Per i tuoi occhioni da cerbiatta 🦌</li>
+            <li>Per come mi fai sentire a casa 🏠</li>
+            <li>Per la tua dolcezza 🍯</li>
             <li>Per ogni momento che condividiamo insieme 💫</li>
-            <li>Perché sei semplicemente tu 💕</li>
+            <li>Perché sei semplicemente TU 💕</li>
         </ul>
     </section>
 ```
@@ -52,22 +52,23 @@ Nella sezione "Perché Ti Amo" vedrai:
 > ## 💝 Perché Ti Amo
 > Ci sono infinite ragioni, ma eccone alcune speciali...
 > - Per il tuo sorriso che illumina le mie giornate ☀️
-> - Per come mi fai sentire a casa ovunque 🏠
-> - Per la tua dolcezza infinita 🍯
+> - Per i tuoi occhioni da cerbiatta 🦌
+> - Per come mi fai sentire a casa 🏠
+> - Per la tua dolcezza 🍯
 > - Per ogni momento che condividiamo insieme 💫
-> - Perché sei semplicemente tu 💕
+> - Perché sei semplicemente TU 💕
+
+---
+
+## ⚡ Se non ti basta
+
+Prova ad aggiungere altre ragioni alla lista! Basta copiare una riga `<li>...</li>` e cambiare il testo.
 
 ---
 
 ## 💝 Pensiero del Giorno
 
-*"Ogni elemento di quella lista è un piccolo tesoro. E tu stai imparando a costruire tesori digitali!"*
-
----
-
-## ✨ Sfida Bonus (Opzionale)
-
-Prova ad aggiungere altre ragioni alla lista! Basta copiare una riga `<li>...</li>` e cambiare il testo.
+*"Quel lavoro ordinato non è semplice elenco: è la mappa del tuo percorso. E brilla sempre di più."*
 
 ---
 
