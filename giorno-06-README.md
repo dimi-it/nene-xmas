@@ -1,36 +1,49 @@
-# 🎄 Giorno 6 - Benvenuta nel Mondo dei Colori!
+# 🎄 Giorno 6 - Benvenuta nel Mondo di Bootstrap!
 
 ## Ciao artista! 🎨
 
-Oggi iniziamo con il **CSS** - il linguaggio che rende le cose belle! Se l'HTML è lo scheletro, il CSS è il vestito, il trucco, i colori!
+Oggi iniziamo con **Bootstrap** - un framework CSS che rende tutto FACILISSIMO! Invece di scrivere centinaia di righe di CSS, useremo classi già pronte!
 
 ---
 
 ## 📚 Cosa Impariamo Oggi
-Il **CSS** (Cascading Style Sheets) dice al browser "come" mostrare le cose. Oggi impostiamo i colori base e il font della nostra pagina.
+**Bootstrap** è come un kit di costruzioni: ha già tutti i pezzi pronti, tu devi solo assemblarli! Oggi impostiamo Bootstrap e i nostri colori personalizzati.
 
 ---
 
 ## 🎯 Cosa Fare
 
-Apri il file `style.css` e **sostituisci tutto** con questo codice:
+### Passo 1: Aggiungi Bootstrap all'HTML
+Nel file `index.html`, nella sezione `<head>`, **aggiungi** queste due righe:
+
+```html
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Il nostro CSS personalizzato (per i colori romantici) -->
+<link rel="stylesheet" href="style.css">
+```
+
+### Passo 2: Configura i Colori Romantici
+Nel file `style.css`, **sostituisci tutto** con questo semplice codice:
 
 ```css
-/* 🎨 Importiamo un font carino da Google */
+/* 🎨 Font carino da Google */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
 
-/* ✨ Stili di base per tutta la pagina */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* ✨ I nostri colori romantici */
+:root {
+    --rosa-chiaro: #fff5f5;
+    --rosa-medio: #ffe4e6;
+    --rosa-intenso: #f8b4c4;
+    --rosa-scuro: #e8a0b4;
+    --marrone: #5a4a4a;
+    --oro: #ffd700;
 }
 
 body {
     font-family: 'Quicksand', sans-serif;
-    background-color: #fff5f5;
-    color: #5a4a4a;
-    line-height: 1.6;
+    background-color: var(--rosa-chiaro);
+    color: var(--marrone);
 }
 ```
 
@@ -40,17 +53,12 @@ body {
 
 | Codice | Spiegazione |
 |--------|-------------|
-| `@import url(...)` | Carica un font carino da internet (Quicksand!) |
-| `*` | Seleziona TUTTI gli elementi della pagina |
-| `margin: 0` | Rimuove spazi esterni predefiniti |
-| `padding: 0` | Rimuove spazi interni predefiniti |
-| `body { }` | Stili per tutto il contenuto visibile |
-| `font-family` | Il tipo di carattere da usare |
-| `background-color` | Colore di sfondo (rosa tenue!) |
-| `color` | Colore del testo |
-| `line-height` | Spazio tra le righe di testo |
+| `Bootstrap CSS` | Il framework che fa tutto il lavoro pesante! |
+| `:root { }` | Definisce variabili CSS riutilizzabili |
+| `--nome-colore` | Una variabile per memorizzare un colore |
+| `var(--nome)` | Usa la variabile definita |
 
-💡 **Curiosità:** I colori in CSS si scrivono con `#` seguito da 6 caratteri (formato esadecimale). `#fff5f5` è un rosa molto chiaro!
+💡 **Magia Bootstrap:** Ora puoi usare classi come `text-center` per centrare, `p-3` per padding, `bg-light` per sfondi chiari, senza scrivere CSS!
 
 ---
 
